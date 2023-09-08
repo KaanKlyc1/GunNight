@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Title</title>
+  <script>
+    var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJldmVudElkIjoiMTIzNDUiLCJ1c2VySWQiOiJ5ZXRlciIsImV2ZW50VHlwZSI6ImNoYWxsZW5nZSIsInVzZXJuYW1lIjoiecSxbGTEsW0gbWVydCIsInJvb21JZCI6ImtlbmRpdG9rZW5pbmlrZW5kaW9sdXN0dXJhbmxhcmlucm9vbXUiLCJpYXQiOjE2MjU1Njg4NjZ9.c4n7nrrQ9dxdO-SqrmBcrc_MwNyX0yZfUN2hpXCd6iM";
+    window.onload = function() {
+      document.getElementById('game').contentWindow.postMessage({token},
+        "*");
+      // document.game.postMessage
+    }
+
+  </script>
+</head>
+<body>
+<iframe src='http://localhost:8080' frameborder='0' width='747' height='420' id='game'></iframe>
+</body>
+</html>

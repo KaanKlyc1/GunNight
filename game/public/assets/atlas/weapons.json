@@ -1,0 +1,124 @@
+{"frames": [
+
+{
+	"filename": "ammo1.png",
+	"frame": {"x":196,"y":189,"w":33,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":93},
+	"sourceSize": {"w":33,"h":93}
+},
+{
+	"filename": "ammo2.png",
+	"frame": {"x":196,"y":11,"w":99,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":105},
+	"sourceSize": {"w":99,"h":105}
+},
+{
+	"filename": "ammo_clip.png",
+	"frame": {"x":307,"y":11,"w":8,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":15},
+	"sourceSize": {"w":8,"h":15}
+},
+{
+	"filename": "gun_fx1.png",
+	"frame": {"x":196,"y":128,"w":36,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":44,"w":36,"h":49},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "gun_fx2.png",
+	"frame": {"x":244,"y":128,"w":24,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":43,"w":24,"h":45},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-default.png",
+	"frame": {"x":11,"y":11,"w":25,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":73,"w":25,"h":140},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-default_fire.png",
+	"frame": {"x":11,"y":163,"w":25,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":73,"w":25,"h":140},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-default_side.png",
+	"frame": {"x":48,"y":11,"w":136,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":46},
+	"sourceSize": {"w":136,"h":46}
+},
+{
+	"filename": "rifle1-emerald.png",
+	"frame": {"x":48,"y":185,"w":25,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":73,"w":25,"h":140},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-emerald_fire.png",
+	"frame": {"x":85,"y":185,"w":25,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":73,"w":25,"h":140},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-emerald_side.png",
+	"frame": {"x":48,"y":69,"w":136,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":46},
+	"sourceSize": {"w":136,"h":46}
+},
+{
+	"filename": "rifle1-gold.png",
+	"frame": {"x":122,"y":185,"w":25,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":73,"w":25,"h":140},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-gold_fire.png",
+	"frame": {"x":159,"y":185,"w":25,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":73,"w":25,"h":140},
+	"sourceSize": {"w":128,"h":256}
+},
+{
+	"filename": "rifle1-gold_side.png",
+	"frame": {"x":48,"y":127,"w":136,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":46},
+	"sourceSize": {"w":136,"h":46}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "weapons.png",
+	"format": "RGBA8888",
+	"size": {"w":336,"h":336},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:91ef7c66507700594c540a48b315f376:7051fae3c03f2f62e88013777b5c32c7:ba48453f8b2235fdb166a51105f49255$"
+}
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="./index.css" />
+  <title>Snowpack Phaser TS</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="content"></div>
+<!--  <script type='text/javascript' src="./config.js"></script>-->
+  <script>
+    window.addEventListener("message", (event) => {
+
+    if (event.data.token) {
+      const data = { token: event.data.token };
+      fetch(`https://event-staging.zapapa.gamedistribution.com/verifytoken` , {
+        method: 'POST', // or 'PUT'
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'public'
+        },
+        body: JSON.stringify(data),
+      })
+              .then(response => response.json())
+              .then(res => {
+                console.log('responSEEEE',res.data);
+                var urlParams = new URLSearchParams(window.location.search);
+                var roomID = urlParams.get('room');
+                if(roomID != res.data.roomId){
+                  urlParams.set('room',res.data.roomId);
+                  window.location.href = window.location.origin + window.location.pathname + '?' + urlParams.toString();
+
+                }
+
+                localStorage.setItem('zapapaToken',event.data.token);
+                localStorage.setItem('zapapaRoom',res.data.roomId);
+                localStorage.setItem('zapapaUserID',res.data.userId);
+                console.log(res.data.userId);
+              })
+              .catch((error) => {
+
+                console.log('Error:', error);
+              });
+    }
+  }, false);
+  </script>
+  <script type="module" src="./dist/Game.js"></script>
+
+</body>
+
+</html>
